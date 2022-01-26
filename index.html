@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/myStyle.css">
+    <title>Landing page Challenge</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- navbar section -->
+        <div class="row" id="nav-row">
+            <nav role="navigation" id="header">
+
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand" id="logo-container">
+                        <img id="logo" src="Image/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <div id="navbarCollapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">
+                                </span> Home</a>
+                        </li>
+                        <li>
+                            <a href="#"> Components</a>
+                        </li>
+                        <li>
+                            <a href="#"> Pages</a>
+                        </li>
+                        <li>
+                            <a href="#"> Documentation</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                    />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"
+                                    />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <div id="vl"></div>
+                        </li>
+                        <li>
+                            <a href="#" id="login">Login</a>
+                        </li>
+                        <li>
+                            <a href="#" style="padding-top: 10px;">
+                                <button id="join-us-btn" type="button">Join us
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+
+        <!-- hero section -->
+        <div class="row margin-bottom" id="hero-row">
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img id="hero-img-1" src="Image/Start-New-Project.svg" alt="image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <P class="gray-text" id="hero-txt">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            Ut enim ad minim veniam.
+                        </P>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button id="start-btn" type="button"> Ready Start >
+                        </button>
+                        <img id="fab-img" src="Image/Fab.png" alt="fabz"> Watch video
+                        <hr>
+                    </div>
+                </div>
+                <div class="row" id="number-img-row">
+
+                    <div class="col-md-4">
+                        <img class="number-img" src="Image/14.svg" alt="image">
+
+                    </div>
+                    <div class="col-md-4">
+                        <img class="number-img" src="Image/15.svg" alt="image">
+
+                    </div>
+                    <div class="col-md-4">
+                        <img class="number-img" src="Image/59.svg" alt="image">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img id="hero-img-2" src="Image/smiling-woman.png" alt="image">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- work with section -->
+        <div class="row margin-bottom text-center" id="work-with-row">
+            <div class="col-md-12">
+                <h1 class="heading-bold">
+                    We work with
+                </h1>
+            </div>
+            <div class="col-md-12">
+                <p class="set-margin gray-text">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                </p>
+            </div>
+            <div class="row social-row">
+
+                <div class="col-md-2">
+                    <img class="social-icon" src="Image/Spotify.svg" alt="image">
+                </div>
+                <div class="col-md-2">
+                    <img class="social-icon" src="Image/Slack.svg" alt="image">
+                </div>
+                <div class="col-md-2">
+                    <img class="social-icon" src="Image/Netflix.svg" alt="image">
+                </div>
+                <div class="col-md-2">
+                    <img class="social-icon" src="Image/heroku.svg" alt="image">
+                </div>
+                <div class="col-md-2">
+                    <img class="social-icon" src="Image/viemo.svg" alt="image">
+                </div>
+                <div class="col-md-2">
+                    <img class="social-icon" src="Image/airbnb.svg" alt="image">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- coure section -->
+        <div class="row margin-bottom" id="course-row">
+            <div class="col-md-6">
+                <p id="primary-color"> dolore magna labore et dolore magna
+                </p>
+                <img id="course-pic" src="Image/course-pic.svg">
+            </div>
+            <div class="col-md-6 ">
+                <h2 class="heading2">sed diam nonumy eirmod tempor invidunt ut labore et</h2>
+                <p class="long-text gray-text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    labore et dolore magna sadipscing elitr
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <hr id="short-hr">
+                        <p class="short-text gray-text">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            labore et dolore magna sadipscing elitr
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <hr id="short-hr">
+                        <p class="short-text gray-text">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            labore et dolore magna sadipscing elitr
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- featured Courses section -->
+        <div id="featured-Courses">
+            <div class="row">
+                <div class="col-md-12" style="text-align: left;">
+                    <h1>
+                        <b>Featured Courses</b>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6" style="text-align:left;">
+                    <p class "feature-subtitle">sed diam nonumy eirmod tempor invidunt ut labore et dolore magna labore et dolore magna</p>
+                </div>
+                <div class="col-md-6" style="text-align:right;">
+                    <div class="pagination_section">
+                        <a href="#">
+                            <img src="image/back-arrow.svg">
+                        </a>
+                        <a href="#">
+                            <img src="image/next-arrow.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Image/first-card.png" alt="Avatar" style="width:100%; border-top-right-radius: 3%;border-top-left-radius: 3%">
+                        <div class="row" style="display:flex">
+                            <div class="col-md-6">
+                                <p id="primary-color" style="font-size:12px;text-align: left;padding:20px;">
+                                    <b>MANAGEMENT</b>
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p style="text-align: right ;font-size:24px;padding:20px;padding-top:10px;color:#212B36">$39
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p style="text-align:justify ;padding:20px;padding-top:10px;padding-bottom:10px;color:#212B36;font-size:18px">
+                                    <b>Don't waste time! Facts untill you reach the event</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding-left:30px">
+                                <img id="" src="Image/Star.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="color:#212B36;font-size:14px;padding:5px;">
+                                    <b>4.8</b> (1,098)</span>
+                                <p style="text-align: left ;font-size:14px;color:#212B36;padding:5px">
+                                    <b>180k </b>Students
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding:20px;padding-top:10px;padding-bottom:10px">
+                                <img style="padding-left:20px" src="Image/Avatar.svg">
+                                <p style="font-size: 14px; padding:10px;color:#212B36">Bessie Cooper</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding-left: 40px; padding-right:40px">
+                                <hr id="dotted-line">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding-left:30px">
+                                <img id="" src="Image/Clock-Icon.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="font-size:14px;padding:5px;">100 hours</span>
+                                <img id="" src="Image/beginner-icon.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="text-align: left ;font-size:14px;padding:5px">Beginner
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Image/second-card.png" alt="Avatar" style="width:100%; border-top-right-radius: 3%;border-top-left-radius: 3%">
+                        <div class="row" style="display:flex">
+                            <div class="col-md-6">
+                                <p id="primary-color" style="font-size:12px;text-align: left;padding:20px;">
+                                    <b>MANAGEMENT</b>
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p style="text-align: right ;font-size:24px;padding:20px;padding-top:10px;color:#212B36">$39
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p style="text-align:justify ;padding:20px;padding-top:10px;padding-bottom:10px;color:#212B36;font-size:18px">
+                                    <b>Don't waste time! Facts untill you reach the event</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding-left:30px">
+                                <img id="" src="Image/Star.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="color:#212B36;font-size:14px;padding:5px;">
+                                    <b>4.8</b> (1,098)</span>
+                                <p style="text-align: left ;font-size:14px;color:#212B36;padding:5px">
+                                    <b>180k </b>Students
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding:20px;padding-top:10px;padding-bottom:10px">
+                                <img style="padding-left:20px" src="Image/Avatar.svg">
+                                <p style="font-size: 14px; padding:10px;color:#212B36">Bessie Cooper</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding-left: 40px; padding-right:40px">
+                                <hr id="dotted-line">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding-left:30px">
+                                <img id="" src="Image/Clock-Icon.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="font-size:14px;padding:5px;">100 hours</span>
+                                <img id="" src="Image/beginner-icon.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="text-align: left ;font-size:14px;padding:5px">Beginner
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Image/third-card.png" alt="Avatar" style="width:100%; border-top-right-radius: 3%;border-top-left-radius: 3%">
+                        <div class="row" style="display:flex">
+                            <div class="col-md-6">
+                                <p id="primary-color" style="font-size:12px;text-align: left;padding:20px;">
+                                    <b>MANAGEMENT</b>
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p style="text-align: right ;font-size:24px;padding:20px;padding-top:10px;color:#212B36">$39
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p style="text-align:justify ;padding:20px;padding-top:10px;padding-bottom:10px;color:#212B36;font-size:18px">
+                                    <b>Don't waste time! Facts untill you reach the event</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding-left:30px">
+                                <img id="" src="Image/Star.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="color:#212B36;font-size:14px;padding:5px;">
+                                    <b>4.8</b> (1,098)</span>
+                                <p style="text-align: left ;font-size:14px;color:#212B36;padding:5px">
+                                    <b>180k </b>Students
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="display:flex;padding:20px;padding-top:10px;padding-bottom:10px">
+                                <img style="padding-left:20px" src="Image/Avatar.svg">
+                                <p style="font-size: 14px; padding:10px;color:#212B36">Bessie Cooper</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="padding-left: 40px; padding-right:40px">
+                                <hr id="dotted-line">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 100px;">
+                            <div class="col-md-12" style="display:flex;padding-left:30px">
+                                <img id="" src="Image/Clock-Icon.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="font-size:14px;padding:5px;">100 hours</span>
+                                <img id="" src="Image/beginner-icon.svg" style="padding-left:5px;padding-bottom:10px">
+                                <span style="text-align: left ;font-size:14px;padding:5px">Beginner
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- featured category section -->
+    <div id="featured-category">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="heading-bold">Featured
+                        <br> Category</h1>
+                    <p class="gray-text category-sub"> Sience wire-frame rendering are relatively
+                        <br> simple and dast to calculate, they are often
+                        <br> used in cases.</p>
+                    <button id="start-btn" type="button"> Explore more
+                    </button>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Python</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Managemet</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Web development</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Photoshop</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Machine learning</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Cybersecurity</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Marketing</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Python</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+                        <div class="col-md-4 Categoty-box">
+                            <h4 class="heading-bold">Cybersecurity</h4>
+                            <p class="categoty-num">28,996,389 students</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="container-fluid">
+        <hr>
+
+        <footer class="footer-area footer--light gray-text">
+            <div class="footer-big">
+                <!-- start .container -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="footer-widget">
+                                <div class="widget-about">
+                                    <img src="Image/logo.svg" alt="" class="img-fluid">
+                                    <p>The starting point for your next project based on easy-to-customize Material-UI © helps
+                                        you build apps faster and better.</p>
+                                    <ul class="contact-details" style="display: flex;">
+                                        <li style="padding-right:30px">
+                                            <a href="#">
+                                                <img src="image/facebook.svg">
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:30px">
+                                            <a href="#">
+                                                <img src="image/instagram.svg">
+                                            </a>
+                                        </li>
+                                        <li style="padding-right:30px">
+                                            <a href="#">
+                                                <img src="image/linkedin.svg">
+                                            </a>
+
+                                        </li>
+                                        <li style="padding-right:30px;padding-top: 5px;">
+                                            <a href="#">
+                                                <img src="image/twitter.svg">
+                                            </a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="footer-widget">
+                                <div class="footer-menu footer-menu--1" style="padding-top: 50px;">
+
+                                    <ul>
+                                        <li style="padding-bottom: 20px;">
+                                            <img src="image/Email.svg">
+                                            <span>Info@example.com</span>
+                                        </li>
+                                        <li>
+                                            <img src="image/location.svg">
+                                            <span>655 Schaefer Dale</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-4 col-sm-4 text-left">
+                            <div class="footer-widget" style="display: flex;">
+                                <div class="footer-menu no-=" style="padding-top:50px;display: flex;">
+                                    <input class="email-input" type="email" placeholder="Email address">
+                                    <button id="email-btn">
+                                        <img src="image/button-arrow.svg">
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="mini-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6" style="text-align: left;">
+                            <div class="copyright-text">
+                                <p>
+                                    © 2021 All rights reserved.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style="text-align: right;color:#999">
+                            <div class="copyright-text">
+                                <span style="padding-right:20px">Help Center</span>
+                                <span>Terms of service</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

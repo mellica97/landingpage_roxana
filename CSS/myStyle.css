@@ -1,0 +1,274 @@
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 500;  
+}
+a{
+    color: gray;
+}
+li {
+    list-style:none
+}
+#header{
+    color: gray;
+    font-style: bold;   
+}
+
+#logo-container{
+    margin-top: 2px;
+}
+#join-us-btn{
+    background-color: #212B36;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+}
+#nav-row{
+    margin-bottom: 50px;
+}
+#hero-img-1{
+    width: 75%;
+}
+#hero-img-2{
+    width: 100%;
+}
+#start-btn{  
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+#fab-img{
+    display: inline;
+    padding-top: 15px;
+}
+#hero-txt{
+    padding-top: 20px;
+}
+#number-img-row{
+    margin-top: 40px;
+}
+#course-pic{
+    border-radius: 10px;
+}
+.number-img{
+    padding-right: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.margin-bottom{
+    margin-bottom: 150px;
+}
+.set-margin{
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.category-sub{
+    margin: 30px 0px;
+}
+.social-row{
+    padding: 0 100px;
+}
+.heading-bold{
+    font: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gray-text{
+    color: gray;
+}
+#primary-color{
+    padding-bottom:80px;
+    text-align: left;
+    color: red;
+}
+.heading2{
+    margin-top:200px;
+    text-align: left;
+    padding:30px
+}
+.short-text{
+    text-align: justify;
+    padding:30px;
+    padding-top:20px;
+}
+.long-text{
+    text-align: left;
+    padding:30px
+}
+#course-pic {
+    border-radius: 2%;
+    display: flex;
+}
+.Categoty-box{
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+
+}
+.Categoty-box:hover{
+    background-color: white;
+    color: orangered;
+    box-shadow: #212B36;
+}
+
+.categoty-num{
+    font-size: 14px;
+    color: gray;
+    font: bolder;
+}
+
+#short-hr
+{
+    margin-left:30px;
+    border-top: 3px solid #FA541C;
+    margin-bottom:0px;
+    width:10%;
+
+}
+.feature-subtitle{
+    padding-top:30px;
+    padding-bottom:50px;
+    color: gray;
+    margin: 50px 0px;
+}
+#featured-category{
+    background-color: rgb(241, 241, 241);
+    padding: 100px;
+}
+#email-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+
+    position: static;
+    width: 48px;
+    height: 48px;
+    left: 318px;
+    top: 0px;
+    border:none;
+
+    /* 01 Primary/03 Main */
+
+    background: #FA541C;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.email-input{
+    padding: 5px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+    border-radius: 3%;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .footer-big .footer-widget {
+    margin-bottom:40px
+   }
+   .footer-menu {
+    padding-left:48px
+   }
+   .footer-menu ul li a {
+    font-size:15px;
+    line-height:32px;
+    -webkit-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s
+   }
+   .footer-menu ul li a:hover {
+    color:#5867dd
+   }
+   .footer-menu--1 {
+    width:100%
+   }
+   .footer-widget-title {
+    line-height:42px;
+    margin-bottom:10px;
+    font-size:18px
+   }
+   .mini-footer {
+    text-align:center;
+    padding:32px 0
+   }
+   .mini-footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#999
+   }
+   .mini-footer p a {
+    color:#5867dd
+   }
+   .mini-footer p a:hover {
+    color:#34bfa3
+   }
+   .widget-about img {
+    display:block;
+    margin-bottom:30px
+   }
+   .widget-about p {
+    font-weight:400
+   }
+   .widget-about .contact-details {
+    margin:30px 0 0 0
+   }
+   .widget-about .contact-details li {
+    margin-bottom:10px
+   }
+   .widget-about .contact-details li:last-child {
+    margin-bottom:0
+   }
+   .widget-about .contact-details li span {
+    padding-right:12px
+   }
+   .widget-about .contact-details li a {
+    color:#5867dd
+   }
+   @media (max-width:991px) {
+    .footer-menu {
+     padding-left:0
+    }
+   }
+   
+   input{
+       position: static;
+       width: 310px;
+       height: 48px;
+       left: 0px;
+       top: 0px;
+       
+       /* 14 Others/Input */
+       
+       background: rgba(145, 158, 171, 0.08);
+       border-radius: 8px;
+       
+       /* Inside auto layout */
+       
+       flex: none;
+       order: 0;
+       flex-grow: 1;
+       margin: 0px 8px;
+       border:none;
+   }
